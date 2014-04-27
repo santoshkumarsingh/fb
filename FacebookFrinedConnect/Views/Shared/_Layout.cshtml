@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title -Facebook Friendship Calculator</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/tdfriendselector.css" rel="stylesheet" />
+    <link href="~/Content/jquery.friend.selector-1.2.1.css" rel="stylesheet" />
+    <link href='//fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <div id="fb-root"></div>
+</head>
+<body>
+
+    <div id="container">
+
+        @RenderBody()
+
+        <div id="footer" style="text-align:center;align-self:center">
+            © 2014 - Santosh Kumar Singh 
+        </div>
+    </div>
+    <!-- Loads facebook script and iframes -->
+    <!-- Facebook Integration  -->
+    
+
+    
+
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script src="~/Scripts/jquery.friend.selector-1.2.1.js"></script>
+    <script src="~/Scripts/main.js"></script>
+
+
+
+</body>
+</html>

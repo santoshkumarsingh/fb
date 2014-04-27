@@ -1,0 +1,230 @@
+/*Color Scheme:
+Dark Blue: #42565D;
+Olive: #B8B37C;
+Tan: #DCC784;
+Green: #579070;
+Peach: #D99F72;
+
+Headache
+Blue: #80BCA3;
+Red: #8F4D27;
+*/
+
+
+html , body{
+	position:relative;
+	background-color: #66766E;
+	display:block;
+	height: 100%;
+	overflow: hidden;
+}
+
+#container{
+	padding-top: 10%;
+	height: auto;
+}
+
+#header {
+	position: absolute;
+	top: -120px;
+	right: 0%;
+	display:block;
+	
+}
+
+#footer{
+	position: fixed;
+	bottom: 10px;
+	padding: 5px;
+	font-family: 'Crete Round', serif;
+	color: #42575E;
+
+}
+
+#footer a {
+	text-decoration: none;
+	color: #BC674A;
+}
+
+#content_box{
+	margin: 0px;
+	position: relative;
+	height: auto;
+	width: auto;
+	max-width: 58em;
+	left: 15%;
+	background-color: #8F4D27;
+	border: 5px solid;
+	border-color:  #FFFFFF;
+	padding: 20px;
+	display:block;
+}
+
+
+@media screen and (max-width: 1440px){
+	#content_box{
+		width: 75%;
+		left: 9%;
+	}
+
+	h1{
+		font-size: 60px;
+	}
+}
+
+
+@media screen and (min-width: 630px) and (max-width:1243px){
+
+	#content_box{
+		width: 460px;
+	}
+}
+
+
+@media screen and (min-width: 1440px){
+
+	h1{
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	#content_box{
+		width: 230px;
+		left: 5%;
+		margin-bottom: 30%;
+		margin-top: 10%;
+	}
+
+	#header{
+		top:-100px;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+	html, body{
+		overflow:scroll;
+	}
+}
+
+
+#message{
+	font-family: 'Crete Round', serif;
+	position: absolute;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	bottom: -100px;
+	color: #8F4D27;
+}
+
+#auth, #find-friend, #percentage, #share{
+	float: left;
+	margin: 15px;
+}
+
+#auth{
+    
+	background: url('./img/logged-in.png') no-repeat;
+}
+
+#find-friend{
+	background: url('./img/chosen-friend.png') no-repeat;
+}
+
+#percentage{
+    
+	background: url('./img/percent-button.png') no-repeat;
+	position: relative;
+	font-family: 'Lily Script One', cursive;
+	font-size: 80px;
+	color: #fff;
+	width: 200px;
+	height: 200px;
+}
+
+#share{
+	background: url('./img/shared.png') no-repeat;
+}
+
+.button{
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	cursor: pointer;
+}
+
+#auth-img { /*fb-auth image*/
+	/*opacity: 0.3;*/
+	-webkit-filter: drop-shadow(-10px 5px 0px #354347); 
+	filter: drop-shadow(-10px 5px 0px #354347); 
+}
+
+#find-friend-img {
+	-webkit-filter: drop-shadow(-10px 5px 0px #c6982b); 
+	filter: drop-shadow(-10px 5px 0px #c6982b);
+}
+
+#share-img {
+	-webkit-filter: drop-shadow(-10px 5px 0px #778E75); 
+	filter: drop-shadow(-10px 5px 0px #778E75);
+	
+}
+
+/* creates darkened effect on buttons */
+.black {
+	background: url('./img/black.png') no-repeat;
+	opacity: 0.2;
+}
+
+.black img{
+	cursor: default;
+}
+
+#percentage-num {
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+
+
+.textarea {
+	background: #75442a;
+	border: 1px solid #75442a;
+	outline: 0;
+	font-family: 'Crete Round', serif;
+	display:block;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.centered {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-family: 'Lily Script One', cursive;
+	color: #8F4D27;
+	font-weight: normal;
+	text-shadow: 
+		 -1px 1px #E5E5E5,
+		 -2px 2px #E5E5E5,
+		 -3px 3px #E5E5E5,
+		 -4px 4px #E5E5E5;
+	display:block;
+}
+
+p {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Crete Round', serif;
+	font-size: 16px;
+	font-weight: normal;
+	display:block;
+}
